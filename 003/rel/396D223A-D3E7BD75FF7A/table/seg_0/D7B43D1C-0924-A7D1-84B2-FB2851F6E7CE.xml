@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B43D1C-0924-A7D1-84B2-FB2851F6E7CE" name="Artists">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>A0BEFE5D-BA2C-278F-651C-FA03143467F5</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Artist_Name" id="1D84FAE9-84DD-D904-89FD-7A8AEA0380E8">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>D3470DAF-6087-C1AD-73FE-16AA30B98E4D</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artist_Role" id="205E00D2-C61F-57DD-BEC9-21E7D685C490">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>35B65426-7176-FBE6-474E-0B4F085C0DBD</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Album_Album_Title" id="0DC799CE-4A99-149E-5A7D-B53967272171">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>DC3391E2-A61D-94D7-5715-4C105CDD3849</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="4E9E28F5-2C1E-701E-1EC9-0F68E5BDEEB5"/>
+</associations>
+</Column>
+<Column name="Album_Album_Playtime" id="B6AC42C1-F7B2-7EAC-5D13-011DA43E0AB6">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>65D5158F-4ADA-518A-46B4-ACD5E4151BA1</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="6F9AB3B9-7D83-BB0D-BD3F-4AC1246A7F81"/>
+</associations>
+</Column>
+<Column name="Album_Album_Release_Date" id="DF02E7E4-CF64-F68A-E3B1-81126B969800">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>719D88EB-D750-42B8-D540-F5230AB88D37</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="EDB7F900-B8FC-D246-F2EB-A87DEC3D89EC"/>
+</associations>
+</Column>
+<Column name="Album_Album_Genre" id="049A4B0F-D440-6489-787B-BA09DD9EA78E">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>32F54FD0-D966-162D-48DD-8E1161A5CB87</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="0C2A2B6C-A3F5-F62D-926C-7718D9C90E0B"/>
+</associations>
+</Column>
+<Column name="Album_Album_Price" id="B4E4703F-4750-E435-9860-8A84858807E1">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>841B739F-50DA-77DF-76F9-072474C9B4CC</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="BFF51B28-5951-54C8-AA12-0BAD7DE40637"/>
+</associations>
+</Column>
+<Column name="Album_Album_Tracks" id="3A0E8AFE-EB51-36E7-056A-0C516BDB9478">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>E6222D0E-C498-FF34-233E-2E61031A70D9</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="116BEB30-75A8-7794-2C2B-361526CA492C"/>
+</associations>
+</Column>
+<Column name="Album_Album_Artists" id="BF7D9DB6-0BA4-AC74-776C-6B1051C8306C">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>501ACA3F-0E81-077D-134D-3A976FB3CBF6</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="C4EDB70E-76C7-2CAA-9F92-D71FF1B61A16"/>
+</associations>
+</Column>
+<Column name="Album_Album_Reviews" id="1C5D2AA1-E044-EBCB-6BA6-86FCE01B7401">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>CD28232C-5ECE-AE2C-BB0A-64359C39537F</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE3FDB5-98C5-A439-6738-5FF47B0B0699" referredColumn="B7DEE344-5502-EA22-DDA2-FDE964E6BAB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87548585-7495-F623-ADD8-A4CA43B53EFD" name="Artists_PK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>0B0DC3C9-6305-7AC8-BE22-A41E6BBAE923</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D84FAE9-84DD-D904-89FD-7A8AEA0380E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74D604B5-7E17-2B8D-84A9-C34DC0D9378C" name="Artists_Album_FK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>47DD3F86-4C66-2E0A-1F2E-76BB3C729540</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DC799CE-4A99-149E-5A7D-B53967272171"/>
+<colUsage columnID="B6AC42C1-F7B2-7EAC-5D13-011DA43E0AB6"/>
+<colUsage columnID="DF02E7E4-CF64-F68A-E3B1-81126B969800"/>
+<colUsage columnID="049A4B0F-D440-6489-787B-BA09DD9EA78E"/>
+<colUsage columnID="B4E4703F-4750-E435-9860-8A84858807E1"/>
+<colUsage columnID="3A0E8AFE-EB51-36E7-056A-0C516BDB9478"/>
+<colUsage columnID="BF7D9DB6-0BA4-AC74-776C-6B1051C8306C"/>
+<colUsage columnID="1C5D2AA1-E044-EBCB-6BA6-86FCE01B7401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

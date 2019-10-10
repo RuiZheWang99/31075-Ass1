@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D3B0625-BA73-60FB-0210-14BFA65286A1" name="Reviews">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:14:12 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Reviews Name" id="8B6C02FE-037A-4C30-5F07-2A46092BFE6F">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:14:20 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Review Date" id="62FC5722-3A4F-C915-5070-88EEAF1065C1">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:14:34 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Review Text" id="093FFA12-51A8-CA49-06EE-741F81AD9025">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:14:53 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Review Score" id="CFCDAA7B-0229-1F15-DF5C-FF8AD3576D07">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:15:46 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Title" id="9B7388DE-B715-7BE5-B9EB-01D083F6E89F">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>436B9053-0602-7ABA-B628-EB77682299E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Playtime" id="3B9EA5CC-B19B-8E86-C17C-65F44687E40C">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>A01FCA56-43E6-9C06-C540-2F02E4DD991B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Release Date" id="925B060F-0D95-A947-03C3-87C0F7C657AE">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>A0BFD662-1EED-C373-7346-0F77D196D07E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Genre" id="62D09208-3FE6-1F5D-4EAA-312C8F12D0CE">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>D513354E-8A60-ADB9-1295-F538675E3419</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Price" id="8B377499-DC49-47B6-03F9-CC4C8E6B4C64">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>77CAA9B2-D28E-0603-238A-C8FB78B5F904</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Tracks" id="CDF8DA47-A77E-C8E3-D2A7-3D5FFE8157F4">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>079225ED-0433-1176-9DDB-900D8ED3ACEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Artists" id="616B0394-BDFF-F91E-8479-9D577C2BFBB6">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>E2C92CB3-9BB8-E694-3EF2-A692420E43B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Album_Reviews" id="FDD65281-3A9A-375B-04A7-BDCBC81575CF">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:19:26 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>28B5BD24-464B-EFB7-9D50-2AE116A4F293</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artist Name" id="D09CA789-1A50-D9ED-ED5F-33CCAC09E70E">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:20:11 UTC</createdTime>
+<generatorID>49B701D2-2F32-E0BE-03A6-F4E56E1065B7</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<referedAttribute>D3470DAF-6087-C1AD-73FE-16AA30B98E4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7164F941-5F58-3FBA-ED3D-C4B4133FC65B" name="Reviews PK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:14:32 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B6C02FE-037A-4C30-5F07-2A46092BFE6F</attributeRef>
+<attributeRef>D09CA789-1A50-D9ED-ED5F-33CCAC09E70E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

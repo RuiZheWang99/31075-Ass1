@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23CF2EE6-4078-64B6-B3D0-5E57864FC383" name="Media Type">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:03:51 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vinyl disks" id="22071413-7A3E-3482-1BD4-01E081FA4D5B">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:04:00 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Audio CD" id="4792F305-BA82-4355-820D-2F2D4B193376">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:04:15 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MP3" id="31A0C971-F99D-9BFD-B0D3-DA28B8C0C381">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:04:47 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCA0E20F-A30D-2A3F-A5F7-ED7CB34A850A" name="Media Type PK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-08 07:04:12 UTC</createdTime>
+<ownerDesignName>003</ownerDesignName>
+<engineerTo>
+<item key="396D223A-36C4-428D-E68B-D3E7BD75FF7A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22071413-7A3E-3482-1BD4-01E081FA4D5B</attributeRef>
+<attributeRef>4792F305-BA82-4355-820D-2F2D4B193376</attributeRef>
+<attributeRef>31A0C971-F99D-9BFD-B0D3-DA28B8C0C381</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

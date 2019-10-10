@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CB97191-5068-AD6D-A9CB-5F02ADA18569" name="Reviews">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>4D3B0625-BA73-60FB-0210-14BFA65286A1</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reviews_Name" id="7247D0D9-275D-A660-B296-61B2FBEF4895">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>8B6C02FE-037A-4C30-5F07-2A46092BFE6F</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Review_Date" id="3E6CEE2A-8F96-B3D2-A48A-E04CB43173B4">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>62FC5722-3A4F-C915-5070-88EEAF1065C1</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Review_Text" id="80C2EEC1-71BD-61EF-7C16-021AA79EB696">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>093FFA12-51A8-CA49-06EE-741F81AD9025</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Review_Score" id="D8909D72-4F6F-1C97-F963-B117C3C226CB">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>CFCDAA7B-0229-1F15-DF5C-FF8AD3576D07</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Album_Album_Title" id="925AB85B-0D6F-A611-89FF-009D737FDBC1">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>9B7388DE-B715-7BE5-B9EB-01D083F6E89F</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="4E9E28F5-2C1E-701E-1EC9-0F68E5BDEEB5"/>
+</associations>
+</Column>
+<Column name="Album_Album_Playtime" id="F3389DBC-D566-3864-689C-A9ACAA78157A">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>3B9EA5CC-B19B-8E86-C17C-65F44687E40C</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="6F9AB3B9-7D83-BB0D-BD3F-4AC1246A7F81"/>
+</associations>
+</Column>
+<Column name="Album_Album_Release_Date" id="8ABC2765-E8AE-CCFF-6C52-8E938C026DA8">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>925B060F-0D95-A947-03C3-87C0F7C657AE</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="EDB7F900-B8FC-D246-F2EB-A87DEC3D89EC"/>
+</associations>
+</Column>
+<Column name="Album_Album_Genre" id="4DD62CEF-4285-69A4-4E0A-322590AC8C29">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>62D09208-3FE6-1F5D-4EAA-312C8F12D0CE</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="0C2A2B6C-A3F5-F62D-926C-7718D9C90E0B"/>
+</associations>
+</Column>
+<Column name="Album_Album_Price" id="AA630CCF-20C1-BCD6-BFE9-CE5F4F13760E">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>8B377499-DC49-47B6-03F9-CC4C8E6B4C64</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="BFF51B28-5951-54C8-AA12-0BAD7DE40637"/>
+</associations>
+</Column>
+<Column name="Album_Album_Tracks" id="21738B89-9E56-8FA8-A6DD-7E02A19155CA">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>CDF8DA47-A77E-C8E3-D2A7-3D5FFE8157F4</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="116BEB30-75A8-7794-2C2B-361526CA492C"/>
+</associations>
+</Column>
+<Column name="Album_Album_Artists" id="074F3116-A1C4-8CB3-72A2-71C6BED2E6B1">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>616B0394-BDFF-F91E-8479-9D577C2BFBB6</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="C4EDB70E-76C7-2CAA-9F92-D71FF1B61A16"/>
+</associations>
+</Column>
+<Column name="Album_Album_Reviews" id="A398C3B3-6EFC-7A06-0A4C-5D5AA1EF7F00">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>FDD65281-3A9A-375B-04A7-BDCBC81575CF</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF67BA25-8548-2B22-CD0D-44DCC92E22B4" referredColumn="B7DEE344-5502-EA22-DDA2-FDE964E6BAB4"/>
+</associations>
+</Column>
+<Column name="Artists_Artist_Name" id="D56FA8B5-E768-4421-F086-FF191919E8DF">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>D09CA789-1A50-D9ED-ED5F-33CCAC09E70E</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8086B58-337F-AD46-7D0E-3BAE3F44313D" referredColumn="1D84FAE9-84DD-D904-89FD-7A8AEA0380E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFFD68BF-EF3B-A629-45DB-777BC9CA2142" name="Reviews_PK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>7164F941-5F58-3FBA-ED3D-C4B4133FC65B</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7247D0D9-275D-A660-B296-61B2FBEF4895"/>
+<colUsage columnID="D56FA8B5-E768-4421-F086-FF191919E8DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35E76F53-D43B-7C8D-9BBE-15AFF35CE45A" name="Reviews_Artists_FK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>49B701D2-2F32-E0BE-03A6-F4E56E1065B7</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D56FA8B5-E768-4421-F086-FF191919E8DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55AA79C3-0F9B-2D72-E317-C19927DCFD10" name="Reviews_Album_FK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>8AAD2E59-8257-6DBE-15B8-EEE8E4210FF0</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="925AB85B-0D6F-A611-89FF-009D737FDBC1"/>
+<colUsage columnID="F3389DBC-D566-3864-689C-A9ACAA78157A"/>
+<colUsage columnID="8ABC2765-E8AE-CCFF-6C52-8E938C026DA8"/>
+<colUsage columnID="4DD62CEF-4285-69A4-4E0A-322590AC8C29"/>
+<colUsage columnID="AA630CCF-20C1-BCD6-BFE9-CE5F4F13760E"/>
+<colUsage columnID="21738B89-9E56-8FA8-A6DD-7E02A19155CA"/>
+<colUsage columnID="074F3116-A1C4-8CB3-72A2-71C6BED2E6B1"/>
+<colUsage columnID="A398C3B3-6EFC-7A06-0A4C-5D5AA1EF7F00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

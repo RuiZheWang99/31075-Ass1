@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A5B635F-CFC5-4E64-EB7B-3BB1936F1C49" name="Media_Type">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>23CF2EE6-4078-64B6-B3D0-5E57864FC383</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vinyl_disks" id="8ECC1EFF-AB87-11D9-749F-D14E9A061843">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>22071413-7A3E-3482-1BD4-01E081FA4D5B</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Audio_CD" id="0E73C00C-B1F8-1ED3-7D74-EE8436421F0E">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>4792F305-BA82-4355-820D-2F2D4B193376</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MP3" id="DB81779C-3881-EE3C-B5FF-4B9315B95F7C">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>31A0C971-F99D-9BFD-B0D3-DA28B8C0C381</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29B6F609-A836-5EF1-6B38-B4A920D53738" name="Media_Type_PK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>DCA0E20F-A30D-2A3F-A5F7-ED7CB34A850A</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ECC1EFF-AB87-11D9-749F-D14E9A061843"/>
+<colUsage columnID="0E73C00C-B1F8-1ED3-7D74-EE8436421F0E"/>
+<colUsage columnID="DB81779C-3881-EE3C-B5FF-4B9315B95F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

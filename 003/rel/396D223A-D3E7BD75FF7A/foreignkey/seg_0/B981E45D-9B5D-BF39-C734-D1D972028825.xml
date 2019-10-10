@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B981E45D-9B5D-BF39-C734-D1D972028825" containerWithKeyObject="8DE0F87A-2B49-7B06-AB8B-3FDBC1A96295" localFKIndex="C23E1576-5804-32DA-6206-D28E15B92453" name="MP3_additional_attribute_CDs&amp;Vinyl_additional_atributes_FK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-09 13:17:13 UTC</createdTime>
+<generatorID>156D27AF-BACB-A37B-F971-6C024F4C198B</generatorID>
+<ownerDesignName>003</ownerDesignName>
+<referredTableLongName>CDs&amp;Vinyl_additional_atributes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9E828F6-0434-C5A5-9BA4-6A92224309A2</referredTableID>
+<keyObject>120E1E14-941E-3D89-AA59-F4804DB03244</keyObject>
+<referredKeyID>120E1E14-941E-3D89-AA59-F4804DB03244</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Media_Type,Disk_Number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
